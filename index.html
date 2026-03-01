@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Personal Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Personal Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#post1">AI</a></li>
+                <li><a href="#post2">Travel</a></li>
+                <li><a href="#post3">Health</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Post 1 -->
+        <section class="blog-post" id="post1">
+            <h2>The Rise of Artificial Intelligence</h2>
+            <p class="date">Published on: 10 February 2026</p>
+
+            <div class="image-wrapper">
+                <img src="ai-artificial-intelligence-humanoid-side-portrait-view-with-blue-and-orange-vibrant-neon-and-copy-space-artificial-intelligence-technology-concept-ai-generated-illustration-free-photo.jpg" alt="AI Image">
+            </div>
+
+            <p>
+                Artificial Intelligence is transforming industries such as healthcare,
+                finance, and education. Automation is shaping the future.
+            </p>
+
+            <div class="comment-section">
+                <h3>Comments</h3>
+                <div class="comment-list"></div>
+
+                <input type="text" class="name" placeholder="Your Name">
+                <textarea class="message" placeholder="Your Comment"></textarea>
+                <button onclick="addComment(this)">Add Comment</button>
+            </div>
+        </section>
+
+        <!-- Post 2 -->
+        <section class="blog-post" id="post2">
+            <h2>Traveling Around the World</h2>
+            <p class="date">Published on: 28 January 2026</p>
+
+            <div class="image-wrapper">
+                <img src="706923.jpg" alt="Travel Image">
+            </div>
+
+            <p>
+                Traveling allows us to explore new cultures and traditions
+                and creates unforgettable experiences.
+            </p>
+
+            <div class="comment-section">
+                <h3>Comments</h3>
+                <div class="comment-list"></div>
+
+                <input type="text" class="name" placeholder="Your Name">
+                <textarea class="message" placeholder="Your Comment"></textarea>
+                <button onclick="addComment(this)">Add Comment</button>
+            </div>
+        </section>
+
+        <!-- Post 3 -->
+        <section class="blog-post" id="post3">
+            <h2>Maintaining a Healthy Lifestyle</h2>
+            <p class="date">Published on: 15 December 2025</p>
+
+            <div class="image-wrapper">
+                <img src="1-29.jpg" alt="Health Image">
+            </div>
+
+            <p>
+                A healthy lifestyle includes regular exercise, proper diet,
+                and maintaining mental well-being.
+            </p>
+
+            <div class="comment-section">
+                <h3>Comments</h3>
+                <div class="comment-list"></div>
+
+                <input type="text" class="name" placeholder="Your Name">
+                <textarea class="message" placeholder="Your Comment"></textarea>
+                <button onclick="addComment(this)">Add Comment</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 My Personal Blog | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
